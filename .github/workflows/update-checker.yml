@@ -16,8 +16,8 @@ env:
   REPO_BRANCH: master
 
 on:
-  workflow_dispatch:
-  schedule:
+#  workflow_dispatch:
+#  schedule:
     - cron: 0 */18 * * *
 
 jobs:
